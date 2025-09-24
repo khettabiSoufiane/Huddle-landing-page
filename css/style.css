@@ -79,6 +79,11 @@ header {
   align-items: center;
   height: 20%;
 }
+@media (min-width: 768px) {
+  header {
+    height: 25%;
+  }
+}
 header .logo {
   max-width: 100%;
   width: 125px;
@@ -87,7 +92,7 @@ header .logo {
 }
 @media (min-width: 768px) {
   header .logo {
-    width: 185px;
+    width: 200px;
   }
 }
 /* end header */
@@ -97,7 +102,7 @@ main {
 }
 @media (min-width: 768px) {
   main {
-    height: 70%;
+    height: 60%;
   }
 }
 main .linding {
@@ -107,11 +112,13 @@ main .linding {
 }
 main .linding img {
   max-width: 100%;
+
   padding-top: 35px;
 }
 @media (min-width: 768px) {
   main .linding img {
     width: 48%;
+    height: 100%;
     padding-top: 0;
   }
 }
@@ -180,8 +187,8 @@ main .linding .text a:hover {
   }
   main .linding .text a {
     margin: 0;
-    padding: 15px 70px;
-    border-radius: 30px;
+    padding: 20px 70px;
+    border-radius: 40px;
   }
 }
 /* end main */
@@ -196,7 +203,7 @@ footer {
 @media (min-width: 768px) {
   footer {
     justify-content: flex-end;
-    height: 10%;
+    height: 15%;
     padding: 0;
   }
 }
